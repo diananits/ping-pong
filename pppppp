@@ -1,0 +1,28 @@
+from pygame import *
+   
+
+
+
+
+
+#фоновая музыка
+mixer.init()
+mixer.music.load(space.ogg) 
+mixer.music.play()
+fire.sound = mixer.Sound('fire.ogg')
+
+img_back = "galaxy.jpg"
+img_ball = "ball.png"
+img enemy = "rocket.png"
+score = 0
+goal = 10
+lost = 0
+max_lost = 3
+#прародитель класса 
+class Gamesprite(sprite.Sprite):
+#конструктор класса
+    def __init__(self, player_image, player_x, player_y)
+    sprite.Sprite.__init__(self)
+
+    self.image = transfore.scale(image.load(player_image),(size_x,size_y))
+    pip oyinstall -- upgrade pip' comand
