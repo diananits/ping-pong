@@ -180,3 +180,4 @@ else:
     else:
         update_score("right")
         spawn_ball()
+ pygame.display.update()
