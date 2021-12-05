@@ -33,6 +33,8 @@ c.create_line(PAD_W, 0, PAD_W, HEIGHT, fill="white")
 c.create_line(WIDTH-PAD_W, 0, WIDTH-PAD_W, HEIGHT, fill="white")
 # центральная линия
 c.create_line(WIDTH/2, 0, WIDTH/2, HEIGHT, fill="white")
+
+pygame.display.update()
  
 # установка игровых объектов
  
